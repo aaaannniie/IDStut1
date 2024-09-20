@@ -47,19 +47,19 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+table of information about our groups
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "username", 
+          y = "favourite number",
+          title = "my groups favourite numbers")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+labs() adds labels to the table
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+y axis 'count' is measured as continuous numerical value, however the data is categorical nominal. To display this data nicely we may use a pie chart or histogram.
